@@ -1,16 +1,46 @@
-# React + Vite
+# Vaishali Verma — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio for Vaishali Verma, a full stack developer focused on React, the MERN stack, and Shopify app development.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive layout with mobile navigation
+- Animated hero, section reveals, and interactive project cards
+- Skills, work experience, education, and selected project details
+- Downloadable resume and contact links
+- Project filters for Shopify and MERN work
 
-## React Compiler
+## Tech stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React
 
-## Expanding the ESLint configuration
+## Run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install the dependencies, then start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+Vite prints the local URL in the terminal.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Portfolio assets
+
+- `src/assets/Vaishali Photo.jpeg` — hero portrait
+- `src/assets/Resume.pdf` — downloadable resume
+
+Portfolio content and project descriptions are maintained in `src/App.jsx`; global styles are in `src/index.css`.

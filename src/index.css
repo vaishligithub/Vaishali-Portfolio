@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f172a;
+  --color-accent: #22d3ee;
+  --color-accent2: #818cf8;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #0b1120;
+  color: #e2e8f0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
